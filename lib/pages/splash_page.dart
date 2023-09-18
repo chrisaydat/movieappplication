@@ -19,7 +19,11 @@ class _SplashPageState extends State<SplashPage> {
       title: 'Splash Page',
       home: Scaffold(
         body: Center(
-          child: Text('Splash Page'),
+          child: Image(
+            image: AssetImage('assets/images/moviesandbynd.png'),
+            width: 200,
+            height: 200,
+          )
         ),
       ),
     );
